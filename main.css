@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    
+}
+
+body{
+    background-color: saddlebrown;
+    font:1em  'PT Sans', Tahoma, Arial;
+    font-weight: 600;
+    
+}
+li{
+    list-style-type: none;
+}
+.offers{
+    margin: auto;
+    display: flex;
+    width: auto;    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.offer{
+    margin: 20px;
+    text-align: center;
+    border: 1px solid black;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    min-width: 250px; 
+    border-radius: 1em;
+    background-color:rgba(161, 131, 117, 0.329);
+    box-shadow: 0 0 1em red;
+
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+ 
+}
+.offer .title{
+    padding: 1.5em;
+    
+}
+.price{
+    font-size: 2em;
+    padding: 0.5em;
+
+}
+.desc1{
+    padding: 0.5em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    color: #BFB9BB;
+}
+.desc{
+    padding: 0.5em ;
+}
+hr{
+    border: 2px solid ;
+}
+button{
+    padding: 0.5em 3em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    border-radius: 0.5em;
+    cursor: pointer;  
+    color: azure;
+    font:1em  'PT Sans', Tahoma, Arial;
+    font-weight: 400;  
+                  
+    
+}
+
+
+
+.offer:hover{
+
+    margin: -2em;
+
+    
+    /* margin: -2em; */
+    margin-top: 2em; 
+    background-color:rgb(129, 58, 22);      
+
+
+}
+
+.offer:hover:first-child{
+    margin-left: 4em;
+    margin-top: 2em;
+}
+.offer:hover:last-child{
+    margin-right: 4em;
+    margin-top: 2em;
+}
