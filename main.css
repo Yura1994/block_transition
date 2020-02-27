@@ -17,7 +17,7 @@ li{
 .offers{
     margin: auto;
     display: flex;
-    width: auto;    
+    max-width: 1200px;      
     justify-content: space-evenly;
     flex-wrap: wrap;
     
