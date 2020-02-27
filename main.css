@@ -40,6 +40,9 @@ li{
     transition-timing-function: ease-in-out;
  
 }
+.offer:hover{
+    box-shadow: 0 0 1em rgb(51, 255, 0);    
+}
 .offer .title{
     padding: 1.5em;
     
